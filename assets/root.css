@@ -25,9 +25,14 @@
 --btn:#8C67EF;
 --border:#B3B3B3;
 --para2:#CCCCCC;
+--heading: #9561ED;
 }
 .para2{
    color: var(--para2);
+}
+
+.heading{
+   color: var(--heading);
 }
 
 .white1{
@@ -40,6 +45,9 @@
 
 .plus{
     font-family: 'Plus Jakarta Display',sans-serif;
+}
+.line_h{
+   line-height: 24px;
 }
 .fs-64{
     font-size: var(--fs-64);
@@ -109,7 +117,7 @@
    :root{
       /* font-size */
       --fs-64: 41px;
-      --fs-16: 16px;
+      --fs-16: 11px;
        --fs-18: 18px;
       --fs-60:60px;
       --fs-48:35px;
